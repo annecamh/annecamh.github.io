@@ -64,7 +64,237 @@
   <div class="page-header"><h2>Accordion</h2></div>
   <div class="col-md-6">
   
-    ----
+    <div class="demo-block">
+    <--   Accordion Configuration Options
+
+          data-allow-toggle
+            Allow for each toggle to both open and close individually
+
+          data-allow-multiple
+            Allow for multiple accordion sections to be expanded at the same time
+          __________
+
+          Ex:
+            
+
+
+
+        -->
+
+
+    <dl id="accordionGroup"
+      role="presentation"
+      class="Accordion">
+      <dt role="heading" aria-level="3">
+        <button aria-expanded="true"
+              class="Accordion-trigger"
+              aria-controls="sect1"
+              id="accordion1id">
+          <span class="Accordion-title">
+            Personal Information
+          </span>
+          <span class="Accordion-icon">
+        </button>
+      </dt>
+      <dd id="sect1"
+        role="region"
+        aria-labelledby="accordion1id"
+        class="Accordion-panel">
+        <div>
+          <--   Variable content within section, may include any type of markup or interactive widgets. -->
+          <fieldset>
+            <p>
+              <label for="cufc1">
+                Name
+                <span aria-hidden="true">
+                  *
+                </span>
+                :
+              </label>
+              <input value=""
+                   name="Name"
+                   id="cufc1"
+                   class="required"
+                   aria-required="true"
+                   type="text">
+            </p>
+            <p>
+              <label for="cufc2">
+                Email
+                <span aria-hidden="true">
+                  *
+                </span>
+                :
+              </label>
+              <input value=""
+                   name="Email"
+                   id="cufc2"
+                   aria-required="true"
+                   type="text">
+            </p>
+            <p>
+              <label for="cufc3">
+                Phone:
+              </label>
+              <input value=""
+                   name="Phone"
+                   id="cufc3"
+                   type="text">
+            </p>
+            <p>
+              <label for="cufc4">
+                Extension:
+              </label>
+              <input value=""
+                   name="Ext"
+                   id="cufc4"
+                   type="text">
+            </p>
+            <p>
+              <label for="cufc5">
+                Country:
+              </label>
+              <input value=""
+                   name="Country"
+                   id="cufc5"
+                   type="text">
+            </p>
+            <p>
+              <label for="cufc6">
+                City/Province:
+              </label>
+              <input value=""
+                   name="City_Province"
+                   id="cufc6"
+                   type="text">
+            </p>
+          </fieldset>
+        </div>
+      </dd>
+      <dt role="heading" aria-level="3">
+        <button aria-expanded="false"
+              class="Accordion-trigger"
+              aria-controls="sect2"
+              id="accordion2id">
+          <span class="Accordion-title">
+            Billing Address
+          </span>
+          <span class="Accordion-icon">
+        </button>
+      </dt>
+      <dd id="sect2"
+        role="region"
+        aria-labelledby="accordion2id"
+        class="Accordion-panel"
+        hidden="">
+        <div>
+          <fieldset class="billing flex">
+            <p>
+              <label for="b-add1">
+                Address 1:
+              </label>
+              <input name="b-add1"
+                   id="b-add1"
+                   type="text">
+            </p>
+            <p>
+              <label for="b-add2">
+                Address 2:
+              </label>
+              <input name="b-add2"
+                   id="b-add2"
+                   type="text">
+            </p>
+            <p>
+              <label for="b-city">
+                City:
+              </label>
+              <input name="b-city"
+                   id="b-city"
+                   type="text">
+            </p>
+            <p>
+              <label for="b-state">
+                State:
+              </label>
+              <input name="b-state"
+                   id="b-state"
+                   type="text">
+            </p>
+            <p>
+              <label for="b-zip">
+                Zip Code:
+              </label>
+              <input name="b-zip"
+                   id="b-zip"
+                   type="text">
+            </p>
+          </fieldset>
+        </div>
+      </dd>
+      <dt role="heading" aria-level="3">
+        <button aria-expanded="false"
+              class="Accordion-trigger"
+              aria-controls="sect3"
+              id="accordion3id">
+          <span class="Accordion-title">
+            Shipping Address
+          </span>
+          <span class="Accordion-icon">
+        </button>
+      </dt>
+      <dd id="sect3"
+        role="region"
+        aria-labelledby="accordion3id"
+        class="Accordion-panel"
+        hidden="">
+        <div>
+          <fieldset>
+            <p>
+              <label for="m-add1">
+                Address 1:
+              </label>
+              <input name="m-add1"
+                   id="m-add1"
+                   type="text">
+            </p>
+            <p>
+              <label for="m-add2">
+                Address 2:
+              </label>
+              <input name="m-add2"
+                   id="m-add2"
+                   type="text">
+            </p>
+            <p>
+              <label for="m-city">
+                City:
+              </label>
+              <input name="m-city"
+                   id="m-city"
+                   type="text">
+            </p>
+            <p>
+              <label for="m-state">
+                State:
+              </label>
+              <input name="m-state"
+                   id="m-state"
+                   type="text">
+            </p>
+            <p>
+              <label for="m-zip">
+                Zip Code:
+              </label>
+              <input name="m-zip"
+                   id="m-zip"
+                   type="text">
+            </p>
+          </fieldset>
+        </div>
+      </dd>
+    </dl>
+  </div>
 
   </div><!-- col-->
 
