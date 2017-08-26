@@ -57,7 +57,7 @@
     </div><!--container fluid-->
 </nav>
 
-<div id="section1" class="container-fluid">
+<div id="accordion" class="container-fluid">
 
   <div class="row">
   
@@ -83,9 +83,9 @@
 </div><!--row-->
 </div><!--container fluid for section 1-->
 
+<hr/>
 
-
-<div id="section2" class="container-fluid">
+<div id="alert" class="container-fluid">
 
 <div class="row">
   <div class="page-header"><h2>Alert message</h2></div>
@@ -110,459 +110,89 @@
 </div><!--col-->
 </div><!--row-->
 </div><!--container fluid for section 2-->
+	    
+<hr/>	    
 
-
-
-
-<div id="section3" class="container-fluid">
+<div id="dragdrop" class="container-fluid">
 
   <div class="row">
   
-  <div class="page-header"><h2>Content boxes</h2>  <p>Content boxes are used to highlight key content within a page. Content boxes include Example, Learn more, Myth check, Quote, Resources</p>
-</div>
-
+  <div class="page-header"><h2>Drag and drop</h2></div>
   <div class="col-md-6">
-
-
-
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-    <h3 class="panel-title">Learn more</h3>
-    </div>
-
-  <div class="panel-body">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel purus non sapien eleifend fermentum. Vivamus volutpat efficitur finibus. Mauris diam mauris, sagittis in suscipit eu, sagittis non nunc. Maecenas vitae efficitur lacus, et porttitor ligula. Morbi eu lorem vitae odio porta faucibus quis vitae magna. </p>  
-  </div> <!--panel body-->
-
-  </div> <!--panel primary-->
-
   
-  <div class="bs-callout bs-callout-warning">
-  <h4>Resources</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel purus non sapien eleifend fermentum. Vivamus volutpat efficitur finibus. Mauris diam mauris, sagittis in suscipit eu, sagittis non nunc. Maecenas vitae efficitur lacus, et porttitor ligula. Morbi eu lorem vitae odio porta faucibus quis vitae magna. </p>  
-  </div>
-  
-  
-    <div class="well"><h4>Example</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel purus non sapien eleifend fermentum. Vivamus volutpat efficitur finibus. Mauris diam mauris, sagittis in suscipit eu, sagittis non nunc. Maecenas vitae efficitur lacus, et porttitor ligula. Morbi eu lorem vitae odio porta faucibus quis vitae magna. </p>  
-  </div>
+    ----
 
-  
-  <blockquote>
-    This is a quote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel purus non sapien eleifend fermentum. Vivamus volutpat efficitur finibus. Mauris diam mauris, sagittis in suscipit eu, sagittis non nunc. Maecenas vitae efficitur lacus, et porttitor ligula. Morbi eu lorem vitae odio porta faucibus quis vitae magna.
-  </blockquote>
-  
-  
-  
-  
-  <div class="bs-callout bs-callout-info">
-  <h4>Myth check</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel purus non sapien eleifend fermentum. Vivamus volutpat efficitur finibus. Mauris diam mauris, sagittis in suscipit eu, sagittis non nunc. Maecenas vitae efficitur lacus, et porttitor ligula. Morbi eu lorem vitae odio porta faucibus quis vitae magna. </p>  
-  </div>
-
-</div><!--col-->
-
+  </div><!-- col-->
 
   <div class="col-md-6">
   <div class="panel panel-default">
     <div class="panel-heading">
-    <h3 class="panel-title">Web accessibility of content boxes</h3>
+    <h3 class="panel-title">Description</h3>
     </div>
   <div class="panel-body">
-      <p>Ensure that the colour contrast ratio of foreground (i.e., text) to background within content boxes is 4.5:1 or greater for normal text and 3:1 for large text. Use online tools such as <a href="http://webaim.org/resources/contrastchecker/" alt="WebAIM's Color Contrast Checker" target="_blank">WebAIM's Color Contrast Checker</a> to check a colour combination's contrast ratio.</p>
-
-      <p>The following shows the colour contrast ratio of the content boxes displayed in this style guide:</p>
-      <ul>
-        <li>Example (Contrast Ratio: 17.62:1)</li>
-        <li>Learn more (Contrast Ratio: 4.56:1)</li>
-        <li>Myth check (Contrast Ratio: 4.54:1)</li>
-        <li>Quote</li>
-        <li>Resources (Contrast Ratio: 4.51:1</li>
-
-      </ul>
-
-      <p>Paragraph text within content boxes should be 16px in size, and headings should follow the hierarchy of the page where the content box resides.</p>
-
-      <p>Use <code>&lt;blockquote&gt;</code> when presenting quote(s) on a page.</p>       
-      
+	  <p>The term drag and drop infers using a mouse or keyboard keys to move text or image from one location to another. </p>      
   </div><!--panel body-->
-  </div><!--panel default-->
-</div><!--col-->
-
-
-</div> <!--row-->
-
-</div><!--container fluid for section 3-->
-
-
-
-<div id="section4" class="container-fluid">
-
-<div class="row">
-  <div class="page-header"><h2>Ways to shorten content</h2>
-      <p>Some course topic pages include lengthy content, which causes unecessary scrolling for users. Using tabs and accordion are one of the ways to structure lengthy content on a course page to create better user experience.</p>
-  </div>
-
-
-  <div class="col-md-6">
-
-  <h3>Tabs</h3>
-
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-  </ul>
-
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home">This is the tab content for Home. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</div>
-    <div role="tabpanel" class="tab-pane" id="profile">This is the tab content for Profile. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</div>
-    <div role="tabpanel" class="tab-pane" id="settings">This is the tab content for Settings. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</div>
-  </div><!--tab content-->
-
-
-
-<h3>Accordion</h3>
-
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-  <div class="panel panel-default">
-
-    <div class="panel-heading" role="tab" id="headingOne">  
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
-        </a>
-      </h4>
-    </div><!-- panel heading-->
-
-
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div> <!--panel body-->     
-    </div><!-- panel collapse in-->
-
-  </div><!--panel default-->
-
-
-  <div class="panel panel-default">
-
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
-        </a>
-      </h4>
-    </div><!--panel heading-->
-
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div><!--panel body-->
-    </div><!--panel collapse-->
-
-  </div><!--panel default-->
-
-
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </h4>
-    </div><!--panel heading-->
-
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div><!--panel body-->
-    </div><!--panel collapse-->
-  
-  </div><!--panel default-->
-
-</div><!--panel group-->
-
-</div><!--col-->
-
-
-<div class="col-md-6">
-  <div class="panel panel-default">
-
-    <div class="panel-heading">
-    <h3 class="panel-title">Web accessibility of using ways to shorten content</h3>
-    </div><!--panel heading-->
-
-  <div class="panel-body">
-    <p>Do not use carousel and modals as ways to shorten content.</p>
-  </div><!--panel body-->
-
-</div><!--panel default-->
-
+  </div><!-- panel -->
 </div><!--col-->
 
 </div><!--row-->
+</div><!--container fluid for section 3-->
 
+<hr/>
+
+	    
+	    <div id="modal" class="container-fluid">
+
+  <div class="row">
+  
+  <div class="page-header"><h2>Modal</h2></div>
+  <div class="col-md-6">
+  
+    ----
+
+  </div><!-- col-->
+
+  <div class="col-md-6">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+    <h3 class="panel-title">Description</h3>
+    </div>
+  <div class="panel-body">
+	  <p>A window overlayed on either the primary window or another dialog window.</p>
+	  
+	  </div><!--panel body-->
+  </div><!-- panel -->
+</div><!--col-->
+
+</div><!--row-->
 </div><!--container fluid for section 4-->
+	    
+<hr/>
+<div id="modal" class="container-fluid">
 
+  <div class="row">
+  
+  <div class="page-header"><h2>Tabs</h2></div>
+  <div class="col-md-6">
+  
+    ----
 
-<div id="section5" class="container-fluid">
+  </div><!-- col-->
 
-<div class="row">
-  <div class="page-header"><h2>Learning activities</h2>
-      <p>The following is an itemized list of learning activities available for use in the platform and in a customized way (i.e., using front-end development language).</p>
-  </div><!--page header-->
-
-
-  <div class="col-md-12">
-
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-
-  <div class="panel panel-default">
-
-    <div class="panel-heading" role="tab" id="headingFour">  
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          Discussion forum
-        </a>
-      </h4>
-    </div><!-- panel heading-->
-
-
-    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-      <div class="panel-body">
-        <p>The forum activity module enables participants to have asynchronous discussions i.e. discussions that take place over an extended period of time.</p>
-
-<p>There are several forum types to choose from, such as a standard forum where anyone can start a new discussion at any time; a forum where each student can post exactly one discussion; or a question and answer forum where students must first post before being able to view other students' posts. A teacher can allow files to be attached to forum posts. Attached images are displayed in the forum post.</p>
-
-<p>Participants can subscribe to a forum to receive notifications of new forum posts. A teacher can set the subscription mode to optional, forced or auto, or prevent subscription completely. If required, students can be blocked from posting more than a given number of posts in a given time period; this can prevent individuals from dominating discussions.</p>
-
-<p>Forum posts can be rated by teachers or students (peer evaluation). Ratings can be aggregated to form a final grade which is recorded in the gradebook.</p>
-
-<p>Forums have many uses, such as</p>
-<ul><li>A social space for students to get to know each other</li>
-<li>For course announcements (using a news forum with forced subscription)</li>
-<li>For discussing course content or reading materials</li>
-<li>For continuing online an issue raised previously in a face-to-face session</li>
-<li>For teacher-only discussions (using a hidden forum)</li>
-<li>A help centre where tutors and students can give advice</li>
-<li>A one-on-one support area for private student-teacher communications (using a forum with separate groups and with one student per group)</li>
-<li>For extension activities, for example ‘brain teasers’ for students to ponder and suggest solutions to</li></ul>
-      </div> <!--panel body-->
-    </div><!-- panel collapse in-->
-  </div><!--panel default-->
-
-
-  <div class="panel panel-default">
-
-    <div class="panel-heading" role="tab" id="headingFive">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-          Quiz
-        </a>
-      </h4>
-    </div><!--panel heading-->
-
-    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-      <div class="panel-body">
-       <p>The quiz activity enables a teacher to create quizzes comprising questions of various types, including multiple choice, matching, short-answer and numerical.</p>
-
-<p>The teacher can allow the quiz to be attempted multiple times, with the questions shuffled or randomly selected from the question bank. A time limit may be set.</p>
-
-<p>Each attempt is marked automatically, with the exception of essay questions, and the grade is recorded in the gradebook.</p>
-
-<p>The teacher can choose when and if hints, feedback and correct answers are shown to students.</p>
-
-<p>Quizzes may be used</p>
-<ul>
-<li>As course exams</li>
-<li>As mini tests for reading assignments or at the end of a topic</li>
-<li>As exam practice using questions from past exams</li>
-<li>To deliver immediate feedback about performance</li>
-<li>For self-assessment</li></ul>
-      </div><!--panel body-->
-    </div><!--panel collapse-->
-  </div><!--panel default-->
-
-
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingSix">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-          Feedback/Survey
-        </a>
-      </h4>
-    </div><!--panel heading-->
-
-    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-      <div class="panel-body">
-        <p>The feedback activity module enables a teacher to create a custom survey for collecting feedback from participants using a variety of question types including multiple choice, yes/no or text input.</p>
-
-<p>Feedback responses may be anonymous if desired, and results may be shown to all participants or restricted to teachers only. Any feedback activities on the site front page may also be completed by non-logged-in users.</p>
-
-<p>Feedback activities may be used</p>
-<ul>
-<li>For course evaluations, helping improve the content for later participants</li>
-<li>To enable participants to sign up for course modules, events etc.</li>
-<li>For guest surveys of course choices, school policies etc.</li>
-<li>For anti-bullying surveys in which students can report incidents anonymously</li></ul>
-      </div><!--panel body-->
-    </div><!--panel collapse-->
-  </div><!--panel default-->
-
-
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingSeven">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Others
-        </a>
-      </h4>
-    </div><!--panel heading-->
-
-    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-      <div class="panel-body">
-
-<p>Other activities include</p>
-<ul>
-<li>Wiki</li>
-<li>Chat</li>
-<li>Non-graded quizzes</li>
-<li>etc.</li></ul>
-      </div><!--panel body-->
-    </div><!--panel collapse-->
-  </div><!--panel default-->
-</div><!--panel group-->
-
-  </div><!--col-->
-
-<h1>Drag and Drop Example</h1>
-<p>
-Drag and drop the artists under the heading they belong. See <a href="#kbdinstructions">keyboard instructions</a>.
-</p>
-<div id="dragdrop">
-<h2 id="Favh">Favourite Artists</h2>
-<ul id="Fav">
-	<li class="draggable">Art Brut</li>
-	<li class="draggable">Babyshambles</li>
-	<li class="draggable">Flo Rida</li>
-	<li class="draggable">Kasabian</li>
-	<li class="draggable">Reverend and the Makers</li>
-	<li class="draggable">XTC</li>
-</ul>
-
-<h2 id="Tolh">Tolerable Artists</h2>
-<ul id="Tol">
-	<li class="empty">None</li>
-</ul>
-
-<h2 id="Rejh">Rejected Artists</h2>
-<ul id="Rej">
-	<li class="empty">None</li>
-</ul>
-</div>
-
-<h2 id="kbdinstructions">Keyboard Instructions</h2>
-<ul class="instructions">
-	<li>Use the <kbd>Tab</kbd> to move to the artist you want to move.</li>
-	<li>Select the item you want to move with the <kbd>Spacebar</kbd>.</li>
-	<li>Use the <kbd>Up</kbd> and <kbd>Down</kbd> cursor keys to select a target in the context menu.</li>
-	<li>Press <kbd>Enter</kbd> to move the artist to the target list.</li>
-</ul>
-<p>
-Back to the <a href="../dragdrop.html">accessible drag and drop article</a>.
-</p>
-
-
-<!--
-<div class="col-md-6">
+  <div class="col-md-6">
   <div class="panel panel-default">
     <div class="panel-heading">
-    <h3 class="panel-title">Lists</h3>
+    <h3 class="panel-title">Description</h3>
     </div>
   <div class="panel-body">
-    <div class="row">
-      
-    <div class="col-xs-6">
-    <h4>Unordered list</h4>
-      <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-        <li>Item four</li>
-      </ul>
-    </div>  
-    
-    <div class="col-xs-6">
-    <h4>Ordered list</h4>
-      <ol>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-        <li>Item four</li>
-      </ol>      
-    </div>
-    
-    </div>
-    
-  </div>
-  </div>
-  </div>
-  
-<div class="col-md-6">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-    <h3 class="panel-title">Nested lists</h3> 
-    </div>
-  <div class="panel-body">
-    <div class="row">
-    <div class="col-xs-6">    
-      <ol>
-        <li>Item one</li>
-        <li>Item two</li>
-          <ul>
-            <li>Nested item one</li>
-            <li>Nested item two</li>
-          </ul>       
-        <li>Item three</li>
-          <ol>
-            <li>Nested item one</li>
-            <li>Nested item two</li>
-          </ol>           
-      </ol>
-    </div>
-    <div class="col-xs-6">    
-      <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-          <ol>
-            <li>Nested item one</li>
-            <li>Nested item two</li>
-          </ol>       
-        <li>Item three</li>
-          <ul>
-            <li>Nested item one</li>
-            <li>Nested item two</li>
-          </ul>         
-      </ul>  
-    </div>
-    </div>
-    </div>
-  </div>
-  </div>
-  
-<div class="media">
-    <div class="media-body">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel purus non sapien eleifend fermentum. Vivamus volutpat efficitur finibus. Mauris diam mauris, sagittis in suscipit eu, sagittis non nunc. Maecenas vitae efficitur lacus, et porttitor ligula. Morbi eu lorem vitae odio porta faucibus quis vitae magna. </p>  
-    </div>
-    <div class="media-right">
-      <img class="media-object" href="#" width="64px" height="64px" alt="image" title="image"/>
-    </div>
-  </div>-->
+	  <p> Tabs are a set of layered sections of content, known as tab panels, that display one panel of content at a time. Each tab panel has an associated tab element, that when activated, displays the panel. The list of tab elements is arranged along one edge of the currently displayed panel, most commonly the top edge. </p>	  
+	  </div><!--panel body-->
+  </div><!-- panel -->
+</div><!--col-->
 
+</div><!--row-->
+</div><!--container fluid for section 5-->
+	    
       
     </div><!--container-->
 
